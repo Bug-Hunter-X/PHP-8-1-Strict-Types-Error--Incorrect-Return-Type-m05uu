@@ -1,0 +1,1 @@
+function foo(int $a, int $b): int { if ($a < 0 || $b < 0) { return 0; // Handle cases that might return non-positive values. } return $a + $b; }
